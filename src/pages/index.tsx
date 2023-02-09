@@ -1,30 +1,29 @@
 import React from 'react';
-// import Head from 'next/head';
+import Head from 'next/head';
 import { groq } from 'next-sanity';
-import { getClient } from 'lib/sanity';
-import { Banner, Footer, Navbar, Properties, Layout } from 'components';
+// import { getClient } from 'lib/sanity';
+import { client } from '../../lib/sanity.client';
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next';
+import { Banner, Footer, Header, Properties, Layout } from '../components';
 
-function Home({ bannerData }) {
+export default function Home({ bannerData }) {
   return (
     <>
-      <div>Navbar</div>
-      <Banner />
+      <Header />
       {console.log(bannerData)}
-      <div>
-        {['Property 1', 'Property 2', 'Property 3'].map((property) => property)}
-      </div>
-      <div>Footer</div>
+      <Banner />
+      <Properties />
+      <h2 className='text-2xl text-cyan-500'>Start</h2>
+      <Footer />
     </>
   );
 }
 
-export const getServerSideProps = async () => {
-  const Bannerquery = groq`*[_type == 'banner']`;
-  const bannerData = await getClient().fetch(Bannerquery);
+export const getServerSideProps: GetServerSideProps = async () => {
+  const bannerQuery = '*[_type == "banner"]';
+  const bannerData = await client.fetch(bannerQuery);
 
   return {
     props: { bannerData },
   };
 };
-
-export default Home;

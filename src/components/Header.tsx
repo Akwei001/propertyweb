@@ -6,6 +6,19 @@ const Header = () => {
       <header className='text-gray-600 body-font'>
         <div className='container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row'>
           <a className='flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0'>
+            {/* <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+              <rect x='16' y='96' width='480' height='320' fill='#b2f5ea' />
+              <path d='M16 128h480v256H16z' fill='#00c853' />
+              <path
+                d='M208 256v-64h96v64h-96zM208 384v-64h96v64h-96zM80 256v-64h96v64H80zM80 384v-64h96v64H80z'
+                fill='#fff'
+              />
+              <path
+                d='M112 208v-48h32v48h-32zM336 208v-48h32v48h-32zM368 176h-48v-32h48v32zM112 336v-48h32v48h-32zM336 336v-48h32v48h-32zM368 304h-48v-32h48v32z'
+                fill='#00c853'
+              />
+            </svg> */}
+
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'

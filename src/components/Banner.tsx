@@ -1,6 +1,7 @@
 import React from 'react';
+import urlFor from 'lib/urlFor';
 
-const Banner = () => {
+const Banner = ({ banner }) => {
   return (
     <div>
       <section className='text-gray-600 body-font'>
@@ -30,7 +31,7 @@ const Banner = () => {
             <img
               className='object-cover object-center rounded'
               alt='hero'
-              src='https://dummyimage.com/720x600'
+              src={urlFor(banner.image)}
             />
           </div>
         </div>

@@ -3,14 +3,26 @@ import React from 'react';
 // import { groq } from 'next-sanity';
 // import { getClient } from 'lib/sanity';
 import { client } from '../../lib/sanity.client';
-import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next';
+// import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next';
 import { Banner, Footer, Header, Properties, Layout } from '../components';
 
-export default function Home({ bannerData }) {
+interface BannerDocument {
+  image: {
+    asset: {
+      url: string;
+    };
+  };
+  buttonText: string;
+  largeText1: string;
+  midText: string;
+  smallText: string;
+}
+
+export default function Home({ bannerData }: { bannerData: BannerDocument[] }) {
   return (
     <>
       <Header />
-      {console.log(bannerData)}
+
       <Banner banner={bannerData.length && bannerData[0]} />
       <Properties />
       <h2 className='text-2xl text-cyan-500'>Start</h2>
@@ -19,9 +31,9 @@ export default function Home({ bannerData }) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getServerSideProps = async () => {
   const bannerQuery = '*[_type == "banner"]';
-  const bannerData = await client.fetch(bannerQuery);
+  const bannerData: BannerDocument[] = await client.fetch(bannerQuery);
 
   return {
     props: { bannerData },

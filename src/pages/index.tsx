@@ -25,7 +25,7 @@ export default function Home({ bannerData }: { bannerData: BannerDocument[] }) {
 
       <Banner banner={bannerData.length && bannerData[0]} />
       <Properties />
-      <h2 className='text-2xl text-cyan-500'>Start</h2>
+
       <Footer />
     </>
   );

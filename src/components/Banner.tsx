@@ -1,6 +1,12 @@
 import React from 'react';
 import urlFor from 'lib/urlFor';
 
+// interface BannerProps {
+//   banner: {
+//     image: string;
+//   };
+// }
+
 const Banner = ({ banner }) => {
   return (
     <div>
@@ -31,7 +37,7 @@ const Banner = ({ banner }) => {
             <img
               className='object-cover object-center rounded'
               alt='hero'
-              src={urlFor(banner.image)}
+              src={urlFor(banner.image) as unknown as string}
             />
           </div>
         </div>

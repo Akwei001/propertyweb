@@ -31,13 +31,13 @@ const Header = () => {
             >
               <path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'></path>
             </svg>
-            <span className='ml-3 text-xl'>Tailblocks</span>
+            <span className='ml-3 text-xl'>Propertyweb</span>
           </a>
           <nav className='flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400'>
-            <a className='mr-5 hover:text-gray-900'>First Link</a>
-            <a className='mr-5 hover:text-gray-900'>Second Link</a>
-            <a className='mr-5 hover:text-gray-900'>Third Link</a>
-            <a className='mr-5 hover:text-gray-900'>Fourth Link</a>
+            <a className='mr-5 hover:text-gray-900'>Properties</a>
+            <a className='mr-5 hover:text-gray-900'>Contact</a>
+            {/* <a className='mr-5 hover:text-gray-900'>Third Link</a>
+            <a className='mr-5 hover:text-gray-900'>Fourth Link</a> */}
           </nav>
           <button className='inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0'>
             Button

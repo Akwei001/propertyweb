@@ -19,12 +19,11 @@ const Footer = () => {
                   viewBox='0 0 24 24'
                 >
                   <path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'></path>
+                  git
                 </svg>
-                <span className='ml-3 text-xl'>Tailblocks</span>
+                <span className='ml-3 text-xl'>Propertyweb</span>
               </a>
-              <p className='mt-2 text-sm text-gray-500'>
-                Air plant banjo lyft occupy retro adaptogen indego
-              </p>
+              <p className='mt-2 text-sm text-gray-500'>Tagline</p>
             </div>
             <div className='flex flex-wrap flex-grow order-first -mb-10 text-center md:pr-20 md:text-left'>
               <div className='w-full px-4 lg:w-1/4 md:w-1/2'>

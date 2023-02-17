@@ -23,113 +23,107 @@ const Footer = () => {
                 </svg>
                 <span className='ml-3 text-xl'>Propertyweb</span>
               </a>
-              <p className='mt-2 text-sm text-gray-500'>Tagline</p>
+              <p className='mt-2 text-sm text-gray-500'></p>
             </div>
             <div className='flex flex-wrap flex-grow order-first -mb-10 text-center md:pr-20 md:text-left'>
               <div className='w-full px-4 lg:w-1/4 md:w-1/2'>
                 <h2 className='mb-3 text-sm font-medium tracking-widest text-gray-900 title-font'>
-                  CATEGORIES
+                  Services
                 </h2>
                 <nav className='mb-10 list-none'>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      First Link
+                      Our services
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Second Link
+                      Meet the Team
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Third Link
+                      Careers at Propertyweb
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Fourth Link
+                      Latest news
                     </a>
                   </li>
                 </nav>
               </div>
               <div className='w-full px-4 lg:w-1/4 md:w-1/2'>
                 <h2 className='mb-3 text-sm font-medium tracking-widest text-gray-900 title-font'>
-                  CATEGORIES
+                  About
                 </h2>
                 <nav className='mb-10 list-none'>
                   <li>
+                    <a className='text-gray-600 hover:text-gray-800'>Buy</a>
+                  </li>
+                  <li>
+                    <a className='text-gray-600 hover:text-gray-800'>Rent</a>
+                  </li>
+                  <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      First Link
+                      Commercial
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Second Link
-                    </a>
-                  </li>
-                  <li>
-                    <a className='text-gray-600 hover:text-gray-800'>
-                      Third Link
-                    </a>
-                  </li>
-                  <li>
-                    <a className='text-gray-600 hover:text-gray-800'>
-                      Fourth Link
+                      Property Management
                     </a>
                   </li>
                 </nav>
               </div>
               <div className='w-full px-4 lg:w-1/4 md:w-1/2'>
                 <h2 className='mb-3 text-sm font-medium tracking-widest text-gray-900 title-font'>
-                  CATEGORIES
+                  Our Offices
                 </h2>
                 <nav className='mb-10 list-none'>
                   <li>
+                    <a className='text-gray-600 hover:text-gray-800'>London</a>
+                  </li>
+                  <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      First Link
+                      Birmingham
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Second Link
+                      Manchester
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Third Link
-                    </a>
-                  </li>
-                  <li>
-                    <a className='text-gray-600 hover:text-gray-800'>
-                      Fourth Link
+                      Liverpool
                     </a>
                   </li>
                 </nav>
               </div>
               <div className='w-full px-4 lg:w-1/4 md:w-1/2'>
                 <h2 className='mb-3 text-sm font-medium tracking-widest text-gray-900 title-font'>
-                  CATEGORIES
+                  Work with us
                 </h2>
                 <nav className='mb-10 list-none'>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      First Link
+                      Off plan
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Second Link
+                      Holiday homes
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Third Link
+                      Home maintenance
                     </a>
                   </li>
                   <li>
                     <a className='text-gray-600 hover:text-gray-800'>
-                      Fourth Link
+                      Sell with us
                     </a>
                   </li>
                 </nav>
@@ -139,15 +133,13 @@ const Footer = () => {
           <div className='bg-gray-100'>
             <div className='container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row'>
               <p className='text-sm text-center text-gray-500 sm:text-left'>
-                © 2020 Tailblocks —
+                © 2023
                 <a
-                  href='https://twitter.com/knyttneve'
+                  href=''
                   rel='noopener noreferrer'
                   className='ml-1 text-gray-600'
                   target='_blank'
-                >
-                  @knyttneve
-                </a>
+                ></a>
               </p>
               <span className='inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start'>
                 <a className='text-gray-500'>

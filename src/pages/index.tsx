@@ -22,10 +22,8 @@ export default function Home({ bannerData }: { bannerData: BannerDocument[] }) {
   return (
     <>
       <Header />
-
       <Banner banner={bannerData.length && bannerData[0]} />
       <Properties />
-
       <Footer />
     </>
   );
@@ -33,6 +31,7 @@ export default function Home({ bannerData }: { bannerData: BannerDocument[] }) {
 
 export const getServerSideProps = async () => {
   const bannerQuery = '*[_type == "banner"]';
+
   const bannerData: BannerDocument[] = await client.fetch(bannerQuery);
 
   return {

@@ -31,7 +31,7 @@ const Header = () => {
             >
               <path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'></path>
             </svg>
-            <span className='ml-3 text-xl'>Propertyweb</span>
+            <span className='ml-3 text-xl text-cyan-500'>Propertyweb</span>
           </a>
           <nav className='flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400'>
             <a className='mr-5 hover:text-gray-900'>Properties</a>

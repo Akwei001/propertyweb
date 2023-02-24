@@ -23,8 +23,8 @@ export default function Home({ bannerData }: { bannerData: BannerDocument[] }) {
     <>
       {/* <Header /> */}
       <Banner banner={bannerData.length && bannerData[0]} />
-      <Properties />
-      <Footer />
+      {/* <Properties /> */}
+      {/* <Footer /> */}
     </>
   );
 }

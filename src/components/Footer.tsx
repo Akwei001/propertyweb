@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <>
+      {/* <>
         <footer className='text-gray-600 body-font'>
           <div className='container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap'>
             <div className='flex-shrink-0 w-64 mx-auto mt-10 text-center md:mx-0 md:text-left md:mt-0'>
@@ -208,7 +208,7 @@ const Footer = () => {
             </div>
           </div>
         </footer>
-      </>
+      </> */}
     </div>
   );
 };

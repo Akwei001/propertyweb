@@ -7,7 +7,7 @@ import urlFor from 'lib/urlFor';
 //   };
 // }
 
-const Banner = ({ banner }) => {
+const Banner = () => {
   return (
     <h2 className='text-cyan-500'>banner</h2>
     // <div>

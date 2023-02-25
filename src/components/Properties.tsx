@@ -3,7 +3,7 @@ import React from 'react';
 const Properties = () => {
   return (
     <>
-      <div>
+      {/* <div>
         <div className='grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           <div className='relative w-full mx-auto'>
             <a
@@ -537,7 +537,7 @@ const Properties = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
